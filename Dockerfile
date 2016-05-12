@@ -1,4 +1,4 @@
-FROM ruby:2.3-onbuild
+FROM ruby:2.3
 MAINTAINER Joviano Dias <joviano.dias@springer.com>
 
 RUN apt-get update && apt-get install -y apt-utils libfontconfig1-dev libjpeg-dev
