@@ -28,7 +28,7 @@ RUN gem install poltergeist -v 1.9.0
 RUN gem install rspec -v 3.4.0
 RUN gem install rspec-expectations -v 3.4.0
 RUN gem install selenium-webdriver -v 2.52.0
-RUN gem install site_prism -v 2.8
+RUN gem install site_prism -v 2.9
 RUN gem install pry -v 0.10.3
 RUN gem install phantomjs -v 2.1.1.0
 RUN gem install websocket -v 1.2.2
