@@ -36,3 +36,4 @@ RUN gem install multi_json -v 1.11.2
 
 # Install the xvfb for firefox and chrome so they can run on a headless system
 RUN apt-get update -qq && apt-get install -y -q xvfb
+CMD (service xvfb start; export DISPLAY=:99;)
